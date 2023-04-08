@@ -14,6 +14,9 @@
 		7E65F87E29DD4F9200691EF6 /* CapstoneProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E65F87D29DD4F9200691EF6 /* CapstoneProjectTests.swift */; };
 		7E65F88829DD4F9200691EF6 /* CapstoneProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E65F88729DD4F9200691EF6 /* CapstoneProjectUITests.swift */; };
 		7E65F88A29DD4F9200691EF6 /* CapstoneProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E65F88929DD4F9200691EF6 /* CapstoneProjectUITestsLaunchTests.swift */; };
+		7E65F89729DD4FEA00691EF6 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E65F89629DD4FEA00691EF6 /* MainView.swift */; };
+		7EBF7C3A29E12B2300801299 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBF7C3929E12B2300801299 /* CalendarView.swift */; };
+		7EBF7C3C29E12B5400801299 /* AddToDoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBF7C3B29E12B5400801299 /* AddToDoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		7E65F88329DD4F9200691EF6 /* CapstoneProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CapstoneProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E65F88729DD4F9200691EF6 /* CapstoneProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapstoneProjectUITests.swift; sourceTree = "<group>"; };
 		7E65F88929DD4F9200691EF6 /* CapstoneProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapstoneProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7E65F89629DD4FEA00691EF6 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		7EBF7C3929E12B2300801299 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		7EBF7C3B29E12B5400801299 /* AddToDoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToDoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +104,9 @@
 				7E65F86E29DD4F9000691EF6 /* ContentView.swift */,
 				7E65F87029DD4F9200691EF6 /* Assets.xcassets */,
 				7E65F87229DD4F9200691EF6 /* Preview Content */,
+				7E65F89629DD4FEA00691EF6 /* MainView.swift */,
+				7EBF7C3929E12B2300801299 /* CalendarView.swift */,
+				7EBF7C3B29E12B5400801299 /* AddToDoView.swift */,
 			);
 			path = CapstoneProject;
 			sourceTree = "<group>";
@@ -258,6 +267,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E65F86F29DD4F9000691EF6 /* ContentView.swift in Sources */,
+				7EBF7C3C29E12B5400801299 /* AddToDoView.swift in Sources */,
+				7E65F89729DD4FEA00691EF6 /* MainView.swift in Sources */,
+				7EBF7C3A29E12B2300801299 /* CalendarView.swift in Sources */,
 				7E65F86D29DD4F9000691EF6 /* CapstoneProjectApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
