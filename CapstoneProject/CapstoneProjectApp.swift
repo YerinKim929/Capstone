@@ -11,7 +11,7 @@ import SwiftUI
 struct CapstoneProjectApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            CalendarView()
         }
     }
 }
