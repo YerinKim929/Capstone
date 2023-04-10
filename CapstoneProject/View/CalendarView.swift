@@ -13,7 +13,6 @@ struct CalendarView: View {
     }
 }
 
-var mainView1 = UIHostingController(rootView: CalendarView())
 
 struct CalendarView_Previews: PreviewProvider {
     static var previews: some View {

@@ -10,6 +10,7 @@
 		7E18727D29E13B8100AD6912 /* RightToLeftSwipeGestureRecogizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E18727C29E13B8100AD6912 /* RightToLeftSwipeGestureRecogizer.swift */; };
 		7E18727F29E13CFD00AD6912 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E18727E29E13CFD00AD6912 /* ViewController.swift */; };
 		7E18728229E14C3800AD6912 /* extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E18728129E14C3800AD6912 /* extensions.swift */; };
+		7E20876B29E4198500FB4007 /* HostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E20876A29E4198500FB4007 /* HostingController.swift */; };
 		7E65F86D29DD4F9000691EF6 /* CapstoneProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E65F86C29DD4F9000691EF6 /* CapstoneProjectApp.swift */; };
 		7E65F86F29DD4F9000691EF6 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E65F86E29DD4F9000691EF6 /* LoginView.swift */; };
 		7E65F87129DD4F9200691EF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E65F87029DD4F9200691EF6 /* Assets.xcassets */; };
@@ -43,6 +44,7 @@
 		7E18727C29E13B8100AD6912 /* RightToLeftSwipeGestureRecogizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RightToLeftSwipeGestureRecogizer.swift; sourceTree = "<group>"; };
 		7E18727E29E13CFD00AD6912 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7E18728129E14C3800AD6912 /* extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extensions.swift; sourceTree = "<group>"; };
+		7E20876A29E4198500FB4007 /* HostingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostingController.swift; sourceTree = "<group>"; };
 		7E65F86929DD4F9000691EF6 /* CapstoneProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CapstoneProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E65F86C29DD4F9000691EF6 /* CapstoneProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapstoneProjectApp.swift; sourceTree = "<group>"; };
 		7E65F86E29DD4F9000691EF6 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
@@ -88,6 +90,7 @@
 			children = (
 				7E18727C29E13B8100AD6912 /* RightToLeftSwipeGestureRecogizer.swift */,
 				7E18727E29E13CFD00AD6912 /* ViewController.swift */,
+				7E20876A29E4198500FB4007 /* HostingController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -305,6 +308,7 @@
 				7E18727D29E13B8100AD6912 /* RightToLeftSwipeGestureRecogizer.swift in Sources */,
 				7E18727F29E13CFD00AD6912 /* ViewController.swift in Sources */,
 				7EBF7C3A29E12B2300801299 /* CalendarView.swift in Sources */,
+				7E20876B29E4198500FB4007 /* HostingController.swift in Sources */,
 				7E65F86D29DD4F9000691EF6 /* CapstoneProjectApp.swift in Sources */,
 				7E18728229E14C3800AD6912 /* extensions.swift in Sources */,
 			);

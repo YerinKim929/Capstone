@@ -13,8 +13,6 @@ struct ScheduleView: View {
     }
 }
 
-var mainView2 = UIHostingController(rootView: ScheduleView())
-
 struct ScheduleView_Previews: PreviewProvider {
     static var previews: some View {
         ScheduleView()
