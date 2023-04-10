@@ -8,21 +8,25 @@
 import UIKit
 import SwiftUI
 
-class ViewControllor: UIViewController {
+class PageViewControllor: UIViewController {
     private let gesture = RightToLeftSwipeGestureRecogizer()
     private var animator: UIViewPropertyAnimator?
+    private var views = [mainView1.view, mainView2.view]
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.view.addSubview(mainView1.view)
-        self.view.addSubview(mainView2.view)
-        self.view.addGestureRecognizer(self.gesture)
+        self.views.forEach {
+            self.view.addSubview($0!)
+            $0!.alpha = 0
+            $0!.translatesAutoresizingMaskIntoConstraints = false
+            NSLayoutConstraint.activate([$0!.leftAnchor.constraint(equalTo: self.view.leftAnchor),$0!.rightAnchor.constraint(equalTo: self.view.rightAnchor),$0!.bottomAnchor.constraint(equalTo: self.view.bottomAnchor),$0!.topAnchor.constraint(equalTo: self.view.topAnchor)])
+        }
         
+        self.views.first??.alpha = 1
+        self.view.addGestureRecognizer(self.gesture)
         self.gesture.addTarget(self, action: #selector(handleGesture(_:)))
     }
-    
-    @IBSegueAction func showMainView(_ coder: NSCoder) -> UIViewController? {return UIHostingController(coder: coder, rootView:CalendarView())}
     
 
     @objc private func handleGesture(_ gesture: UIPanGestureRecognizer) {
@@ -30,7 +34,7 @@ class ViewControllor: UIViewController {
         switch gesture.state {
         case .began:
             self.view.isUserInteractionEnabled = false
-//            self.animator = self.getNextAnimator()
+            self.animator = self.getNextAnimator()
         case .changed:
             let translationX = -gesture.translation(in: self.view).x / self.view.bounds.width
             let fractionComplete = translationX.clamped(to: 0...1)
@@ -51,12 +55,20 @@ class ViewControllor: UIViewController {
         self.animator?.stopAnimation(false) // true인 경우 comletionHandler 호출 없이 inactive 상태, false인 경우 애니메이션이 멈춘 Stopped 상태 (finishAnimation과 같이 사용)
         self.animator?.finishAnimation(at: .end) // completion handler 호출, inactive 상태로 전환
         
-        let currentView = mainView1.view
-        let nextView = mainView2.view
+        let currentView = self.views[0]
+        let nextView = self.views[1]
         
         // Init
         let animator = UIViewPropertyAnimator(
             duration: 0.5, timingParameters: UICubicTimingParameters(animationCurve: .easeInOut))
+        
+        // Animation
+        animator.addAnimations {
+            UIView.animate(withDuration: 1) {
+                currentView?.transform = .init(translationX: -UIScreen.main.bounds.width, y: 0)
+                nextView?.alpha = 1
+            }
+        }
         
         // Completion
         animator.addCompletion {
