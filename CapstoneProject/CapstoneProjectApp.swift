@@ -11,7 +11,33 @@ import SwiftUI
 struct CapstoneProjectApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            CalendarView()
+            //ContentView()
         }
     }
 }
+struct CalendarView: UIViewControllerRepresentable{
+    typealias UIViewControllerType = CalendarViewController
+    
+    func makeUIViewController(context: Context) -> CalendarViewController {
+        let vc = CalendarViewController()
+        return vc
+    }
+    
+    func updateUIViewController(_ uiViewController: CalendarViewController, context: Context) {
+    }
+     
+}
+/*
+struct ViewControllerRepresentation: UIViewControllerRepresentable {
+    func makeUIViewController(context: Context) -> ViewController {
+        UIStoryboard(name: "Main", bundle: nil)
+      .instantiateViewController(withIdentifier: "ViewController")
+      as! ViewController
+    }
+
+    func updateUIViewController(_ uiViewController: ViewController, context: Context) {
+
+    }
+}
+*/
