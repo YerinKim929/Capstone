@@ -7,14 +7,14 @@
 
 import SwiftUI
 
-struct MainView: View {
+struct ScheduleView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Text("ScheduleView")
     }
 }
 
-struct MainView_Previews: PreviewProvider {
+struct ScheduleView_Previews: PreviewProvider {
     static var previews: some View {
-        MainView()
+        ScheduleView()
     }
 }
