@@ -21,6 +21,7 @@
 		7E65F89729DD4FEA00691EF6 /* ScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E65F89629DD4FEA00691EF6 /* ScheduleView.swift */; };
 		7EBF7C3A29E12B2300801299 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBF7C3929E12B2300801299 /* CalendarView.swift */; };
 		7EBF7C3C29E12B5400801299 /* AddToDoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBF7C3B29E12B5400801299 /* AddToDoView.swift */; };
+		A955FCC429E4075E007A8638 /* CalendarCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A955FCC329E4075E007A8638 /* CalendarCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		7E65F89629DD4FEA00691EF6 /* ScheduleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleView.swift; sourceTree = "<group>"; };
 		7EBF7C3929E12B2300801299 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
 		7EBF7C3B29E12B5400801299 /* AddToDoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToDoView.swift; sourceTree = "<group>"; };
+		A955FCC329E4075E007A8638 /* CalendarCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +145,10 @@
 				7E65F86C29DD4F9000691EF6 /* CapstoneProjectApp.swift */,
 				7E65F87029DD4F9200691EF6 /* Assets.xcassets */,
 				7E65F87229DD4F9200691EF6 /* Preview Content */,
+				7E65F89629DD4FEA00691EF6 /* MainView.swift */,
+				7EBF7C3929E12B2300801299 /* CalendarView.swift */,
+				7EBF7C3B29E12B5400801299 /* AddToDoView.swift */,
+				A955FCC329E4075E007A8638 /* CalendarCollectionViewCell.swift */,
 			);
 			path = CapstoneProject;
 			sourceTree = "<group>";
@@ -302,7 +308,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E65F86F29DD4F9000691EF6 /* LoginView.swift in Sources */,
+				A955FCC429E4075E007A8638 /* CalendarCollectionViewCell.swift in Sources */,
+				7E65F86F29DD4F9000691EF6 /* ContentView.swift in Sources */,
 				7EBF7C3C29E12B5400801299 /* AddToDoView.swift in Sources */,
 				7E65F89729DD4FEA00691EF6 /* ScheduleView.swift in Sources */,
 				7E18727D29E13B8100AD6912 /* RightToLeftSwipeGestureRecogizer.swift in Sources */,
