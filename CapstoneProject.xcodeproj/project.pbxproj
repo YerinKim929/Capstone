@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E18727D29E13B8100AD6912 /* RightToLeftSwipeGestureRecogizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E18727C29E13B8100AD6912 /* RightToLeftSwipeGestureRecogizer.swift */; };
+		7E18727F29E13CFD00AD6912 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E18727E29E13CFD00AD6912 /* ViewController.swift */; };
+		7E18728229E14C3800AD6912 /* extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E18728129E14C3800AD6912 /* extensions.swift */; };
+		7E20876B29E4198500FB4007 /* HostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E20876A29E4198500FB4007 /* HostingController.swift */; };
 		7E65F86D29DD4F9000691EF6 /* CapstoneProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E65F86C29DD4F9000691EF6 /* CapstoneProjectApp.swift */; };
-		7E65F86F29DD4F9000691EF6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E65F86E29DD4F9000691EF6 /* ContentView.swift */; };
+		7E65F86F29DD4F9000691EF6 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E65F86E29DD4F9000691EF6 /* LoginView.swift */; };
 		7E65F87129DD4F9200691EF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E65F87029DD4F9200691EF6 /* Assets.xcassets */; };
 		7E65F87429DD4F9200691EF6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E65F87329DD4F9200691EF6 /* Preview Assets.xcassets */; };
 		7E65F87E29DD4F9200691EF6 /* CapstoneProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E65F87D29DD4F9200691EF6 /* CapstoneProjectTests.swift */; };
 		7E65F88829DD4F9200691EF6 /* CapstoneProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E65F88729DD4F9200691EF6 /* CapstoneProjectUITests.swift */; };
 		7E65F88A29DD4F9200691EF6 /* CapstoneProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E65F88929DD4F9200691EF6 /* CapstoneProjectUITestsLaunchTests.swift */; };
-		7E65F89729DD4FEA00691EF6 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E65F89629DD4FEA00691EF6 /* MainView.swift */; };
+		7E65F89729DD4FEA00691EF6 /* ScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E65F89629DD4FEA00691EF6 /* ScheduleView.swift */; };
 		7EBF7C3A29E12B2300801299 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBF7C3929E12B2300801299 /* CalendarView.swift */; };
 		7EBF7C3C29E12B5400801299 /* AddToDoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBF7C3B29E12B5400801299 /* AddToDoView.swift */; };
 		A955FCC429E4075E007A8638 /* CalendarCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A955FCC329E4075E007A8638 /* CalendarCollectionViewCell.swift */; };
@@ -38,9 +42,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7E18727C29E13B8100AD6912 /* RightToLeftSwipeGestureRecogizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RightToLeftSwipeGestureRecogizer.swift; sourceTree = "<group>"; };
+		7E18727E29E13CFD00AD6912 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7E18728129E14C3800AD6912 /* extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extensions.swift; sourceTree = "<group>"; };
+		7E20876A29E4198500FB4007 /* HostingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostingController.swift; sourceTree = "<group>"; };
 		7E65F86929DD4F9000691EF6 /* CapstoneProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CapstoneProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E65F86C29DD4F9000691EF6 /* CapstoneProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapstoneProjectApp.swift; sourceTree = "<group>"; };
-		7E65F86E29DD4F9000691EF6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7E65F86E29DD4F9000691EF6 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		7E65F87029DD4F9200691EF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7E65F87329DD4F9200691EF6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7E65F87929DD4F9200691EF6 /* CapstoneProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CapstoneProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -48,7 +56,7 @@
 		7E65F88329DD4F9200691EF6 /* CapstoneProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CapstoneProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E65F88729DD4F9200691EF6 /* CapstoneProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapstoneProjectUITests.swift; sourceTree = "<group>"; };
 		7E65F88929DD4F9200691EF6 /* CapstoneProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapstoneProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		7E65F89629DD4FEA00691EF6 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		7E65F89629DD4FEA00691EF6 /* ScheduleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleView.swift; sourceTree = "<group>"; };
 		7EBF7C3929E12B2300801299 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
 		7EBF7C3B29E12B5400801299 /* AddToDoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToDoView.swift; sourceTree = "<group>"; };
 		A955FCC329E4075E007A8638 /* CalendarCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -79,6 +87,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7E18727829E136D500AD6912 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7E18727C29E13B8100AD6912 /* RightToLeftSwipeGestureRecogizer.swift */,
+				7E18727E29E13CFD00AD6912 /* ViewController.swift */,
+				7E20876A29E4198500FB4007 /* HostingController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7E18727B29E1378E00AD6912 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7E65F86E29DD4F9000691EF6 /* LoginView.swift */,
+				7EBF7C3B29E12B5400801299 /* AddToDoView.swift */,
+				7EBF7C3929E12B2300801299 /* CalendarView.swift */,
+				7E65F89629DD4FEA00691EF6 /* ScheduleView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7E18728029E14C1700AD6912 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				7E18728129E14C3800AD6912 /* extensions.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		7E65F86029DD4F9000691EF6 = {
 			isa = PBXGroup;
 			children = (
@@ -102,8 +139,10 @@
 		7E65F86B29DD4F9000691EF6 /* CapstoneProject */ = {
 			isa = PBXGroup;
 			children = (
+				7E18728029E14C1700AD6912 /* Extension */,
+				7E18727B29E1378E00AD6912 /* View */,
+				7E18727829E136D500AD6912 /* Controller */,
 				7E65F86C29DD4F9000691EF6 /* CapstoneProjectApp.swift */,
-				7E65F86E29DD4F9000691EF6 /* ContentView.swift */,
 				7E65F87029DD4F9200691EF6 /* Assets.xcassets */,
 				7E65F87229DD4F9200691EF6 /* Preview Content */,
 				7E65F89629DD4FEA00691EF6 /* MainView.swift */,
@@ -272,9 +311,13 @@
 				A955FCC429E4075E007A8638 /* CalendarCollectionViewCell.swift in Sources */,
 				7E65F86F29DD4F9000691EF6 /* ContentView.swift in Sources */,
 				7EBF7C3C29E12B5400801299 /* AddToDoView.swift in Sources */,
-				7E65F89729DD4FEA00691EF6 /* MainView.swift in Sources */,
+				7E65F89729DD4FEA00691EF6 /* ScheduleView.swift in Sources */,
+				7E18727D29E13B8100AD6912 /* RightToLeftSwipeGestureRecogizer.swift in Sources */,
+				7E18727F29E13CFD00AD6912 /* ViewController.swift in Sources */,
 				7EBF7C3A29E12B2300801299 /* CalendarView.swift in Sources */,
+				7E20876B29E4198500FB4007 /* HostingController.swift in Sources */,
 				7E65F86D29DD4F9000691EF6 /* CapstoneProjectApp.swift in Sources */,
+				7E18728229E14C3800AD6912 /* extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

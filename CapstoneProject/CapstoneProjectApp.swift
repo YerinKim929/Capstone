@@ -28,16 +28,4 @@ struct CalendarView: UIViewControllerRepresentable{
     }
      
 }
-/*
-struct ViewControllerRepresentation: UIViewControllerRepresentable {
-    func makeUIViewController(context: Context) -> ViewController {
-        UIStoryboard(name: "Main", bundle: nil)
-      .instantiateViewController(withIdentifier: "ViewController")
-      as! ViewController
-    }
 
-    func updateUIViewController(_ uiViewController: ViewController, context: Context) {
-
-    }
-}
-*/
